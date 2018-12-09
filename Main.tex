@@ -1,0 +1,329 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{biblatex}
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Hayoung Chung, Ph.D.} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+ 
+\moveleft.5\hoffset\centerline{Postdoctoral Researcher}
+\moveleft.5\hoffset\centerline{Department of Structural Engineering}
+\moveleft.5\hoffset\centerline{University of California, San Diego}
+\moveleft.5\hoffset\centerline{hac210@ucsd.edu; summeryoung88@gmail.com}
+
+% \moveleft.5\hoffset\centerline{Rm. 442, SME Building} % Your address
+% \moveleft.5\hoffset\centerline{Department of Structural Engineering}
+% \moveleft.5\hoffset\centerline{University of California, San Diego}
+% \moveleft.5\hoffset\centerline{hac210@ucsd.edu, summeryoun88@gmail.com}
+% \moveleft.5\hoffset\centerline{(858) 284-6782}
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{EXPERTISE}  
+\begin{itemize}
+    \item Computational mechanics of multifunctional structural materials 
+    \item Development of numerical algorithms for structural design considering \\ multiphysics 
+\end{itemize}
+    
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{EDUCATION}
+
+\textbf{Seoul National University (Korea) \hfill September 2010 - February 2017} \\
+\textbf{Ph.D.} in \textit{School of Mechanical and Aerospace Engineering} \\ 
+\textit{Thesis: A multiscale analysis and design of the light-responsive liquid crystal polymer using nonlinear finite element shell model} (Advisor: Prof. Maenghyo Cho)\\ 
+\textit{GPA}: 3.84/4.30 \\
+
+\textbf{Seoul National University (Korea) \hfill March 2006 - August 2010} \\
+\textbf{B.S.} in \textit{School of Mechanical and Aerospace Engineering} \\
+\textit{GPA}: 3.72/4.30; \textit{Cum Laude}, Within top 15\% \\
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{EXPERIENCE} 
+
+\textbf{University of California, San Diego \hfill March 2017 - Present} \\
+\textit{Postdoctoral Researcher} \\ 
+\begin{enumerate}
+    \item \textbf{OpenLSTO}, \textit{Open-source software for level-set topology optimization} 
+    \\ https://github.com/M2DOLab/OpenLSTO
+    \begin{itemize}
+        \item One of the main developers of OpenLSTO
+        \item Main Github repository maintainer
+    \end{itemize}
+    
+    \item \textbf{Topology optimization using OpenMDAO (Sponsor: \textit{NASA})} \\
+    https://github.com/chungh6y/openmdao\_TopOpt
+    \begin{itemize}
+        \item OpenMDAO is an open-source, Multidisciplinary Design Optimization framework. 
+        \item Presented and implemented a modular interpretation of topology optimization algorithms
+        \item Flexibility and easy reconfigurability of the algorithms are greatly enhanced
+        \item Optimized the performance by using a C++ finite element code (\textit{Cython})
+    \end{itemize}
+    
+    \item \textbf{Nonlinear thermoelastic level-set topology optimization (Sponsor: DARPA)}
+    \begin{itemize}
+        \item Developed the nonlinear thermoelastic finite element model
+        \item Designed thermoelastic structures experiencing large deformations
+        \item Executed a sensitivity analysis of large deforming structures
+        \item Identified nonlinear effects on the structural design under a high-temperature thermal load
+    \end{itemize}
+\end{enumerate}
+
+\textbf{Texas Super Computing Center \hfill October 2018} \\
+\textit{Hackathon participant}
+
+\begin{enumerate}
+    \item Participated TRADES problem (DARPA) discussion
+\end{enumerate}
+
+\textbf{NASA Glenn Research Center \hfill August 2017} \\
+\textit{Research Visitor}
+
+\begin{enumerate}
+    \item Invited to collaborate with the researchers and programmers in implementing level-set topology optimization within OpenMDAO
+\end{enumerate}
+
+\textbf{Seoul National University \hfill August 2010 - February 2017} \\
+\textit{Graduate Research Assistant}
+
+\begin{enumerate}
+    \item \textbf{Multi-scale simulation for photo-polymerization (Sponsor: Samsung Display)}
+    \begin{itemize}
+        \item Developed a finite element method to study topological changes of liquid crystal alignments in the existence of an external field 
+    \end{itemize}
+    
+    \item \textbf{Design and implementation of photo-responsive self-deforming structures 
+    (Sponsor: NRF (Korea))}
+    \begin{itemize}
+        \item Developed finite element method that considers \textbf{a multiphysics} of photo-responsive polymer using \textbf{nonlinear, shell element}
+        \item Proposed a \textit{multiscale} method to address light-driven structural behavior
+        \item Presented nonlinear thermoelastic instability of nematic polymer with disclination defects
+        \item Lead a task force team to design a polymer synthesis lab in SNU
+    \end{itemize}
+    
+    % \item \textbf{Development of web-based multiscale simulation platform for an efficient design of energy nanomaterials (Sponsor: Ministry of Knowledge Economy (Korea))}
+    \item \textbf{Development of nano-continuum bridging technology for microscopic structure design (Sponsor: NRF (Korea))}
+    \begin{itemize}
+        \item Studied static sub-micro structural behaviors of bicrystal using molecular dynamics simulation
+        \item Developed a multi-scale analysis model for nanostructures using a molecular dynamics coupled with continuum mechanics 
+        
+    \end{itemize}
+    
+    % \item \textbf{Multi-scale approach for nanocarbon-based composites’ electro/thermo-conductive behaviors (Collaboration: KIST (Korea))}
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{TECHNICAL \\ SKILLS} 
+
+\textbf{Programming Languages:} Matlab, C++, Python, Mathematica. \\
+\textbf{Programming Libraries:} Numpy, Scipy, Eigen, LAPACK, NLOPT, HSL, Boost, Cython \\
+\textbf{ Structural Analysis:} In-house programming, ABAQUS \\
+\textbf{ Optimization:} OpenMDAO (MDO), Optistruct (Toplogy optimization) \\
+\textbf{ Molecular Dynamics:} LAMMPS, Materials Studio \\
+\textbf{ Operating System:} Windows, Linux \\
+\textbf{ MISC.:} LaTex, MS offices \\
+ 
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION
+%----------------------------------------------------------------------------------------
+ 
+\section{PUBLICATION \\ IN JOURNALS}
+
+\begin{enumerate}
+    \item \textbf{Hayoung Chung}, Oded Amir, Alicia H. Kim, “Level-set topology optimization considering nonlinear thermoelasticity”, \textit{Submitted}. % 
+    \item Gang-Won Jang, Sandilya Kambampati, \textbf{Hayoung Chung}, Alicia H. Kim, “Configuration Optimization for Uniform Thickness Structures Using Level Set Method”, \textit{Submitted}.
+    \item \textbf{Hayoung Chung}, John T. Hwang, Justin Gray, Alicia H. Kim, “Topology Optimization in OpenMDAO”, \textit{Submitted}.
+    \item Jaesung Park, \textbf{Hayoung Chung}, Maenghyo Cho, “Strain pattern search simulation of liquid-crystalline self-deforming device according to topology optimization and using the nonlinear FEM”, \textit{In preparation}. 
+    %% belows are published works
+    \item \textbf{Hayoung Chung}, Maenghyo Cho, “Biased propagation of intergranular fracture: a molecular dynamics study”, Journal of Mechanical Science and Technology (32), 11, 5351-5361, 2018. 11 % 2018 11 07
+    \item Jung-Hoon Yun, Chenzhe Li, \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, ” Multiscale modeling and its validation of the trans-cis-trans reorientation-based photodeformation in azobenzene-doped liquid crystal polymer”, International Journal of Solids and Structures, Accepted, 2017. 08 % 2017 12 01
+    \item \textbf{Hayoung Chung}, Jaesung park, Maenghyo Cho, “Numerical study of light-induced phase behavior of smectic solids”, Physical Review E (94), 42707, American Physical Society, 2016.10.  % 2016 10 26
+    \item Hayoung Chung, \textbf{Jung-Hoon Yun}, Joonmyung Choi, Maenghyo Cho, "Finite-element analysis of the optical-texture-mediated photoresponse in a nematic strip", Computational Mechanics (14), 1-14, 2016.10. % 2016 10 14
+    \item Joonmyung Choi, \textbf{Hayoung Chung}, Jung-Hoon Yun, Maenghyo Cho (2016) “Molecular Dynamics Study on the Photothermal Actuation of a Glassy Photoresponsive Polymer Reinforced with Gold Nanoparticles with Size Effect”. ACS Applied Materials \& Interfaces (8):24008–24024.  % 2016 09 23
+    \item \textbf{Hayoung Chung}, Joonmyung Choi, Jung-Hoon Yun, Maenghyo Cho, "Nonlinear photomechanics of nematic networks: upscaling microscopic behaviour to macroscopic deformation", Scientific Reports (6), 20026 2016.02. % 2016 02 01
+    \item Seongseop Kim, Wonbae Kim, \textbf{Hayoung Chung}, and Maenghyo Cho, "Asymmetric surface effect on the configuration of bilayer Si/SiGe nanosprings ", RSC Advances (5), 96387, 2015.11,  %2015 11 10
+    \item Jung-Hoon Yun, Chenzhe Li, \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, "Photo Deformation in Azobenzene Liquid-crystal Network: Multiscale Model Prediction and Its Validation", Polymer (75), 51-56, Elsevier Science Ltd., 2015.09. % 2015 09 28
+    \item Wonbae Kim,\textbf{Hayoung Chung}, Maenghyo Cho, "Anisotropic Hyperelastic Modeling for Face-Centered Cubic and Diamond Cubic Structures", Computer Methods in Applied Mechanics and Engineering, Elsevier (291), 216-239, Elsevier, 2015.07. % 2015 07 01
+    \item Jung-Hoon Yun, Chenzhe Li, \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, "Predicting Photoisomerization Profile of the Highly Polymerized Nematic Azobenzene Liquid Crystal Network: First Principle Calculation.", Chemical Physics Letters (627), 20, Elsevier, 2015.03. %2015 03 18
+    \item \textbf{Hayoung Chung}, Joonmyung Choi, Jung-Hoon Yun, Maenghyo Cho., "Light and thermal responses of liquid crystal network films: A finite element study", Physical Review E, also selected as a part of Kaleidoscope (91), 042503, American Physical Society, 2015.03. % 2015 04 10
+    \item Joonmyung Choi, \textbf{Hayoung Chung}, Jung-Hoon Yun, Maenghyo Cho, "Photo-isomerization effect of the azobenzene chain on the opto-mechanical behavior of nematic polymer: A molecular dynamics study", Applied Physics Letters (105), 22, 221906, American Institute of Physics, 2014.12.  % 2014 12 02
+    \item Wonbae Kim, \textbf{Hayoung Chung}, Maenghyo Cho, "Length and boundary effects on a nanorod", AIP Advances (2), 042166, American Institute of Physics, 2012.11.
+    
+\end{enumerate}
+
+\section{International \\ Conferences}
+
+\begin{enumerate}
+    % M2DO
+    \item \textbf{Hayoung Chung}, Oded Amir, Hyunsun A. Kim "Nonlinear Thermoelastic Topology Optimization with the Level-Set Method", AIAA SciTech Conference, 2019.01. San Diego, CA, USA.
+    \item Sandilya Kambampati, Zongliang Du, \textbf{Hayoung Chung}, Hyunsun A. Kim, Carolina Jauregui, Scott Townsend, Renato Picelli, Xiao-Yi Zhou, and Lester Hedges, "OpenLSTO: Open-Source Software for Level Set Topology Optimization", Multidisciplinary Analysis and Optimization Conference, 2018.06. Atlanta, USA.
+    \item \textbf{Hayoung Chung}, John T. Hwang, Justin S. Gray, Hyunsun A. Kim, "Implementation of topology optimization using openMDAO," AIAA SciTech Conference, 2018.01, Kissimmee, FL, USA.
+    \item Zongliang Du, \textbf{Hayoung Chung}, Sandilya Kambampati, Hyunsun A. Kim, "Multiscale design with architected material connectivity for multiphysics problems", TMS 2018, 2018.03, Arizona, USA.
+    
+        % SSND
+    \item Joonmyung Choi, \textbf{Hayoung Chung}, Hyunseong Shin, Jung-Hoon Yun, Maenghyo Cho, " Computational multiscale modeling of light-responsive polymer nanocomposites and the associated interphases ", The 10th Asian-Australasian Conference on Composite Materials (ACCM-10), 2016.10, Busan, Korea.
+    \item Joonmyung Choi, Hyunseong Shin, \textbf{Hayoung Chung}, Maenghyo Cho, " An all-atom simulation and its multiscale mechanical model for the photo-responsive polymer reinforced with gold nanoparticles ", 26th International Liquid Crystal Conference (ILCC 2016), 2016.08, Kent, OH, USA.
+    \item Jaesung Park, \textbf{Hayoung Chung}, Maenghyo Cho, " Design of photo-responsive actuation; Light and texture modulation ", 26th International Liquid Crystal Conference (ILCC 2016), 2016.08, Kent, OH, USA.
+    \item Jung-Hoon Yun, Chenzhe Li, \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, " Predicting Photo Deformation of the Azobenzene Doped Liquid-crystalline Polymer ", 26th International Liquid Crystal Conference (ILCC 2016), 2016.08, Kent, OH, USA.
+    \item Joonmyung Choi, \textbf{Hayoung Chung}, Hyunseong Shin, Maenghyo Cho, " A multiscale design approach for the optically actuated polymer nanocomposites and the associated interphases ", 12th World Congress on Computational Mechanics \& 6th Asian Pacific Congress on Computational Mechanics (WCCM XII \& APCOM VI), 2016.07, Seoul, Korea.
+    \item \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, " Bridging micro-macro behavior of photo-responsive polymer: revealing nonlinear photomechanics ", 12th World Congress on Computational Mechanics \& 6th Asian Pacific Congress on Computational Mechanics (WCCM XII \& APCOM VI), 2016.07, Seoul, Korea.
+    \item Jaesung Park, \textbf{Hayoung Chung}, Maenghyo Cho, " Multiscale based design framework of irradiation pattern on the photo-responsive polymer; a topology optimization ", 12th World Congress on Computational Mechanics \& 6th Asian Pacific Congress on Computational Mechanics (WCCM XII \& APCOM VI), 2016.07, Seoul, Korea.
+    \item Joonmyung Choi, Junghwan Moon, \textbf{Hayoung Chung}, Maenghyo Cho, " A method of molecular computation of photo-responsive polymer reinforced with nanoparticles ", 3rd International Conference on Computational Design in Engineering (CODE2015), 2015.12, Tokyo, Japan.
+    \item \textbf{Hayoung Chung}, Jaesung Park, Joonmyung Choi, Jung-Hoon Yun, Maenghyo Cho, " A finite element study about mechancial frustration of nematic solids induced by disclination defect ", 3rd International Conference on Computational Design in Engineering (CODE2015), 2015.12, Tokyo, Japan.
+    \item Joonmyung Choi, \textbf{Hayoung Chung}, Jung-Hoon Yun, Maenghyo Cho, " Molecular dynamics simulation model for the photo-responsive polymer and its nanocomposites ", The 2015 world congress on advances in structural engineering and mechanics (ASEM15), 2015.08, Incheon, Korea.
+    \item Jung-Hoon Yun, Chenzhe Li, \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, " Modeling Photoisomerization of Azobenzene and Its Validation ", The 2015 World Congress on Advances in Structural Engineering and Mechanics (ASEM15), 2015.08, Incheon, Korea.
+    \item \textbf{Hayoung Chung}, Joonmyung Choi, Jung-Hoon Yun, Jaesung Park, Maenghyo Cho, " Multiscale design framework of photo-responsive mechanism ", Asian Conference on Liquid Crystals (ACLC2015), The Korea Liquid Crystal society, (Best Poster Award), 2015.01, Busan, South Korea.
+    \item Jung-Hoon Yun, \textbf{Hayoung Chung}, Joonmyung Choi, Chenzhe Li, Junghwan Moon, Maenghyo Cho, " Light Penetration Modeling in Azobenzene Liquid Crystal Elastomer ", Asian Conference on Liquid Crystals (ACLC2015), The Korean Liquid Crystal Society, 2015.01, Busan, South Korea.
+    \item Jaesung Park, \textbf{Hayoung Chung}, Maenghyo Cho, " Design of Application-oriented Photo Responsive Polymer Devices based on Optimization Technique ", 5th International Conference on Computational Methods (ICCM2014), 2014.07, Cambridge, United Kingdom.
+    \item \textbf{Hayoung Chung}, Jung-Hoon Yun, Joonmyung Choi, Maenghyo Cho, " An investigation on disclination defect and nematic order coupled nonlinear behavior of liquid crystal glassy polymer using quasi-soft energy ", 5th International Conference on Computational Methods (ICCM2014), 2014.07, Cambridge, United Kingdom.
+    \item Jung-Hoon Yun, \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, " Photoisomerization and light penetration modelling in Liquid Crystal Elastomer ", 25th International Liquid Crystal Conference, 2014.07, Dublin, Ireland.
+    \item Joonmyung Choi, \textbf{Hayoung Chung}, Jung-Hoon Yun, Maenghyo Cho, " Opto-mechanical behavior of Azobenzene-doped liquid crystalline polymer: A molecular dynamics study ", 5th International Conference on Computational Methods (ICCM2014), 2014.07, Cambridge, United Kingdom.
+    \item Jung-Hoon Yun, \textbf{Hayoung Chung}, Joonmyung Choi, Maenghyo Cho, " Photoisomerization and light penetration modelling in liquid crystal elastomer ", 25th International Liquid Crystal Conference, 2014.07, Dublin, Ireland.
+    \item Maenghyo Cho, Jung-Hoon Yun, Joonmyung Choi, \textbf{Hayoung Chung}, " A multiscale/multiphysics platform for analysis and design of photo-responsive polymer ", 5th International Conference on Computational Methods (ICCM2014), 2014.07, Cambridge, United Kingdom.
+    \item \textbf{Hayoung Chung}, Joonmyung Choi, Jung-Hoon Yun, Maenghyo Cho, " Design of photoresponsive polymer based on multiscale analysis ", 5th Asia Pacific Congress on Computational Mechanics (APCOM2013) and 4th international Symposium on Computational Mechanics (ISCM2013), 2013.12, Singapore.
+    \item \textbf{Hayoung Chung}, Maenghyo Cho, " Study on directional preference of crack propagation ", International Conference on Advances in Interaction \& Multiscale Mechanics (AIMM'13), 2013.09, Jeju, Korea.
+    \item \textbf{Hayoung Chung}, Maenghyo Cho, " A study on the fracture of bicrystal by molecular dynamics simulation ", 2nd International Conference on Computational Design in Engineering (CODE 2012), Computational Structural Engineering Institute of Korea, 2012.11, Jeju, Korea.
+    \item \textbf{Hayoung Chung}, Maeghyo Cho, " A FINITE ELEMENT ANALYSIS ON FRACTURE OF POLYCRYSTALLINE STRUCTURE USING COHESIVE ZONE MODEL (CZM) APPROACH ", 10th world congress of computational mechanics(WCCM 2012), 2012.07, Sao Paulo, Brazil.
+    \item Seongseop Kim, Wonbae Kim, \textbf{Hayoung Chung}, Maenghyo Cho, " Effect of width to thickness ratio and tilt angle on the Si/SiGe bilayer nanospring ", International Conference on Advances in Interaction \& Multiscale Mechanics (AIMM'11), 2011.09, Seoul, Korea.
+    \item \textbf{Hayoung Chung}, Wonbae Kim, Maenghyo Cho, " Surface relaxation model for zinc blende structure ", International Conference on Advances in Interaction \& Multiscale Mechanics (AIMM'11), 2011.09, Seoul, Korea.
+    \item Seongseop Kim, Wonbae Kim, \textbf{Hayoung Chung}, Maenghyo Cho, " Multiscale Analysis of Equilibrium Configuration of Nanospring Considering Surface Effect ", 11th U.S. National Congress on Computational Mechanics, USACM, 2011.07, Minneapolis, USA.
+    \item \textbf{Hayoung Chung}, Wonbae Kim, Maenghyo Cho, " A Surface Relaxation Model of Si (001) Thin Film for Calculation of Thickness Dependent Properties ", 11th U.S. National Congress on Computational Mechanics, USACM, 2011.07, Minneapolis, USA..
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	Teaching experiences
+%----------------------------------------------------------------------------------------
+\section{TEACHING \\EXPERIENCES}
+\begin{enumerate}
+    \item \textbf{Topology optimization for additive manufacturing} \hfill 2018, Fall (UCSD) \\
+    Guest lecture \\
+    Mentoring student projects \\
+
+    \item \textbf{Optimization} \hfill 2018, Fall (UCSD) \\
+    Guest lecture \\
+
+    \item \textbf{Osptimization} \hfill 2017, Fall (UCSD) \\
+    Guest lecture \\
+    
+    \item \textbf{Numerical analysis on plate and shells} \hfill 2015, Fall (SNU) \\
+    Preparing lecture materials \\
+    Complementary lectures \\
+    
+    \item \textbf{Multiscale simulations } \hfill 2013, Spring (SNU)\\
+    Preparing lecture materials \\
+	MD simulation demonstration\\
+	Nonlinear finite element analysis programming demonstration\\
+
+    \item \textbf{Multiscale simulations } \hfill 2012, Fall (SNU)\\
+    Preparing lecture materials \\
+	MD simulation demonstration \\
+    
+    \item \textbf{Continuum Mechanics } \hfill 2011, Fall (SNU)\\
+	Preparing lecture materials \\
+	Tutorial for Total/Update Lagrangian formulation 
+
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	Service to Profession
+%----------------------------------------------------------------------------------------
+\section{SERVICE TO \\ PROFESSION}
+
+\textbf{Peer review: }
+Structural and Multidisciplinary Optimization (4 papers) \\
+\textbf{Session chair: }
+MDO-11, AIAA Science and Technology Forum and Exposition, 2018
+%----------------------------------------------------------------------------------------
+%	Awards and Honors
+%----------------------------------------------------------------------------------------
+\section{AWARDS AND \\ HONORS}
+\begin{itemize}
+    \item \textbf{Kaleidoscope}, \textit{Physical Review E}, 2015
+    \item \textbf{Best poster award}, Symposium on the Multiscale \& Multiphysics Mechanics (MMM), awarded by the chair of Korean Society of Mechanical Engineers (KSME), Dec. 2014 
+    \item \textbf{Best poster award}, Asian Conference on Liquid Crystals (ACLC 2015), Jan. 2015
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	Lists of References
+%----------------------------------------------------------------------------------------
+% \section{REFERENCE LIST}
+% \begin{enumerate}
+%     \item \textbf{Prof. Maenghyo Cho} \\
+%     Multiscale Division, Department of Mechanical Engineering, \\
+%     Seoul National University \\
+%     mhcho@snu.ac.kr \\
+    
+%     \item \textbf{Prof. Hyun-Gyu Kim}\\
+%     Department of Mechanical Engineering\\
+%     Seoul National University of Science \& Technology\\
+%     khg@seoultech.ac.kr \\ 
+    
+%     \item \textbf{Prof. Do-Nyun Kim}\\
+%     Department of Mechanical and Aerospace Engineering, \\
+%     Seoul National University\\
+%     dnkim@snu.ac.kr\\
+    
+%     \item \textbf{Prof. Alicia Kim}\\
+%     Structural Engineering,  \\
+%     University of California, San Diego\\
+%     hak113@eng.ucsd.edu \\
+    
+%     \item \textbf{Prof. John T. Hwang}\\
+%     Mechanical and Aerospace Engineering  \\
+%     University of California, San Diego\\
+%     jhwang@eng.ucsd.edu \\
+    
+%     \item \textbf{Dr. Justin S. Gray}\\
+%     NASA Glenn Research Center  \\
+%     justin.s.gray@nasa.gov \\
+% \end{enumerate}
+
+\end{resume}
+\end{document}
